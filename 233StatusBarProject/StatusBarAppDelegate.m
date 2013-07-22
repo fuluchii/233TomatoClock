@@ -12,7 +12,16 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    
     // Insert code here to initialize your application
+}
+
+- (void)awakeFromNib{
+    statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
+    [statusItem setMenu:statusMunu];
+    [statusItem setTitle:@"233Clock"];
+    [statusItem setHighlightMode:YES];
+    
 }
 
 @end
