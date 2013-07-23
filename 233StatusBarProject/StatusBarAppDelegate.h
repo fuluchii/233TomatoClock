@@ -8,9 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface StatusBarAppDelegate : NSObject <NSApplicationDelegate>{
+@interface StatusBarAppDelegate : NSObject <NSApplicationDelegate,NSMenuDelegate>{
     IBOutlet NSMenu *statusMunu;
     NSStatusItem *statusItem;
+    
+    NSNumber *period;
     
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1BC0BF179EB1FB00A8D798 /* 233statusIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC0BD179EB1FB00A8D798 /* 233statusIcon.png */; };
+		CD1BC0C0179EB1FB00A8D798 /* 233statusIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC0BE179EB1FB00A8D798 /* 233statusIcon@2x.png */; };
+		CD1BC0C4179EB35E00A8D798 /* 233statusIconAlt.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC0C2179EB35E00A8D798 /* 233statusIconAlt.png */; };
+		CD1BC0C5179EB35E00A8D798 /* 233statusIconAlt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1BC0C3179EB35E00A8D798 /* 233statusIconAlt@2x.png */; };
 		CDC5042B179D7357003A705B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC5042A179D7357003A705B /* Cocoa.framework */; };
 		CDC50435179D7357003A705B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC50433179D7357003A705B /* InfoPlist.strings */; };
 		CDC50437179D7357003A705B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC50436179D7357003A705B /* main.m */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1BC0BD179EB1FB00A8D798 /* 233statusIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 233statusIcon.png; path = ../../../design/233/233statusIcon.png; sourceTree = "<group>"; };
+		CD1BC0BE179EB1FB00A8D798 /* 233statusIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "233statusIcon@2x.png"; path = "../../../design/233/233statusIcon@2x.png"; sourceTree = "<group>"; };
+		CD1BC0C2179EB35E00A8D798 /* 233statusIconAlt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 233statusIconAlt.png; sourceTree = "<group>"; };
+		CD1BC0C3179EB35E00A8D798 /* 233statusIconAlt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "233statusIconAlt@2x.png"; sourceTree = "<group>"; };
 		CDC50427179D7357003A705B /* 233StatusBarProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 233StatusBarProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDC5042A179D7357003A705B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		CDC5042D179D7357003A705B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -43,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD1BC0C1179EB20600A8D798 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CD1BC0BD179EB1FB00A8D798 /* 233statusIcon.png */,
+				CD1BC0C2179EB35E00A8D798 /* 233statusIconAlt.png */,
+				CD1BC0C3179EB35E00A8D798 /* 233statusIconAlt@2x.png */,
+				CD1BC0BE179EB1FB00A8D798 /* 233statusIcon@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		CDC5041E179D7357003A705B = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +104,7 @@
 				CDC5043C179D7357003A705B /* StatusBarAppDelegate.h */,
 				CDC5043D179D7357003A705B /* StatusBarAppDelegate.m */,
 				CDC5043F179D7357003A705B /* MainMenu.xib */,
+				CD1BC0C1179EB20600A8D798 /* images */,
 				CDC50431179D7357003A705B /* Supporting Files */,
 			);
 			path = 233StatusBarProject;
@@ -157,6 +177,10 @@
 				CDC50435179D7357003A705B /* InfoPlist.strings in Resources */,
 				CDC5043B179D7357003A705B /* Credits.rtf in Resources */,
 				CDC50441179D7357003A705B /* MainMenu.xib in Resources */,
+				CD1BC0BF179EB1FB00A8D798 /* 233statusIcon.png in Resources */,
+				CD1BC0C0179EB1FB00A8D798 /* 233statusIcon@2x.png in Resources */,
+				CD1BC0C4179EB35E00A8D798 /* 233statusIconAlt.png in Resources */,
+				CD1BC0C5179EB35E00A8D798 /* 233statusIconAlt@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +328,7 @@
 				CDC50446179D7357003A705B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
